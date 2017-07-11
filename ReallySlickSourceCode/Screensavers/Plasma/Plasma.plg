@@ -1,0 +1,35 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Plasma - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/Plasma.res" /d "NDEBUG" "C:\Program Files\Microsoft Visual Studio\MyProjects\ReallySlickSourceCode\Screensavers\Plasma\Plasma.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.000\LOCALS~1\Temp\RSP1A0.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /Fp"Release/Plasma.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Program Files\Microsoft Visual Studio\MyProjects\ReallySlickSourceCode\Screensavers\Plasma\Plasma.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.000\LOCALS~1\Temp\RSP1A0.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.000\LOCALS~1\Temp\RSP1A1.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib ../savergl/release/savergl.lib libc.lib comctl32.lib opengl32.lib glu32.lib winmm.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Plasma.pdb" /machine:I386 /nodefaultlib:"libcd.lib" /out:"Release/Plasma.scr" 
+".\Release\Plasma.obj"
+".\Release\Plasma.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1.000\LOCALS~1\Temp\RSP1A1.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+Plasma.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Plasma.scr - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,49 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                closeSheet = id; 
+                selectSettings = id; 
+                selectTexture = id; 
+                setBackgroundValue = id; 
+                setDensity = id; 
+                setFeedBackSpeed = id; 
+                setFeedback = id; 
+                setSpeed = id; 
+                setTextureSize = id; 
+                setVisibility = id; 
+                setWispsValue = id; 
+            }; 
+            CLASS = RSSEuphoriaSaverView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "IBbackgroundStepper_" = id; 
+                "IBbackgroundTextField_" = id; 
+                "IBconfigureSheet_" = id; 
+                "IBdensitySlider_" = id; 
+                "IBdensityText_" = id; 
+                "IBfeedbackSlider_" = id; 
+                "IBfeedbackSpeedSlider_" = id; 
+                "IBfeedbackSpeedText_" = id; 
+                "IBfeedbackText_" = id; 
+                "IBmainScreen_" = id; 
+                "IBsettingsPopUp_" = id; 
+                "IBspeedSlider_" = id; 
+                "IBspeedText_" = id; 
+                "IBtexturePopUp_" = id; 
+                "IBtextureSizeSlider_" = id; 
+                "IBtextureSizeText_" = id; 
+                "IBversion_" = id; 
+                "IBvisibilitySlider_" = id; 
+                "IBvisibilityText_" = id; 
+                "IBwireframe_" = id; 
+                "IBwispsStepper_" = id; 
+                "IBwispsTextField_" = id; 
+            }; 
+            SUPERCLASS = ScreenSaverView; 
+        }, 
+        {CLASS = ScreenSaverView; LANGUAGE = ObjC; SUPERCLASS = NSView; }
+    ); 
+    IBVersion = 1; 
+}
