@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5615B8871E8FBFC40020B47C /* PepperCoolScreenSaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5615B8861E8FBFC40020B47C /* PepperCoolScreenSaverView.h */; };
+		5615B8891E8FBFC40020B47C /* PepperCoolScreenSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5615B8881E8FBFC40020B47C /* PepperCoolScreenSaverView.m */; };
+		5615B8931E8FC0EE0020B47C /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5615B8921E8FC0EE0020B47C /* OpenGL.framework */; };
+		5615B8951E8FC4470020B47C /* MyOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5615B8941E8FC4470020B47C /* MyOpenGLView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5615B8831E8FBFC40020B47C /* PepperCoolScreenSaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PepperCoolScreenSaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		5615B8861E8FBFC40020B47C /* PepperCoolScreenSaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PepperCoolScreenSaverView.h; sourceTree = "<group>"; };
+		5615B8881E8FBFC40020B47C /* PepperCoolScreenSaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PepperCoolScreenSaverView.m; sourceTree = "<group>"; };
+		5615B88A1E8FBFC40020B47C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5615B8921E8FC0EE0020B47C /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenGL.framework; sourceTree = "<group>"; };
+		5615B8941E8FC4470020B47C /* MyOpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOpenGLView.m; sourceTree = "<group>"; };
+		5615B8961E8FC4620020B47C /* MyOpenGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyOpenGLView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5615B87F1E8FBFC40020B47C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5615B8931E8FC0EE0020B47C /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5615B8791E8FBFC40020B47C = {
+			isa = PBXGroup;
+			children = (
+				5615B8851E8FBFC40020B47C /* PepperCoolScreenSaver */,
+				5615B8901E8FC0640020B47C /* Frameworks and Libraries */,
+				5615B8841E8FBFC40020B47C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5615B8841E8FBFC40020B47C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5615B8831E8FBFC40020B47C /* PepperCoolScreenSaver.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5615B8851E8FBFC40020B47C /* PepperCoolScreenSaver */ = {
+			isa = PBXGroup;
+			children = (
+				5615B8861E8FBFC40020B47C /* PepperCoolScreenSaverView.h */,
+				5615B8881E8FBFC40020B47C /* PepperCoolScreenSaverView.m */,
+				5615B88A1E8FBFC40020B47C /* Info.plist */,
+				5615B8941E8FC4470020B47C /* MyOpenGLView.m */,
+				5615B8961E8FC4620020B47C /* MyOpenGLView.h */,
+			);
+			path = PepperCoolScreenSaver;
+			sourceTree = "<group>";
+		};
+		5615B8901E8FC0640020B47C /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				5615B8911E8FC0A10020B47C /* Linked Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		5615B8911E8FC0A10020B47C /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5615B8921E8FC0EE0020B47C /* OpenGL.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5615B8801E8FBFC40020B47C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5615B8871E8FBFC40020B47C /* PepperCoolScreenSaverView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5615B8821E8FBFC40020B47C /* PepperCoolScreenSaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5615B88D1E8FBFC40020B47C /* Build configuration list for PBXNativeTarget "PepperCoolScreenSaver" */;
+			buildPhases = (
+				5615B87E1E8FBFC40020B47C /* Sources */,
+				5615B87F1E8FBFC40020B47C /* Frameworks */,
+				5615B8801E8FBFC40020B47C /* Headers */,
+				5615B8811E8FBFC40020B47C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PepperCoolScreenSaver;
+			productName = PepperCoolScreenSaver;
+			productReference = 5615B8831E8FBFC40020B47C /* PepperCoolScreenSaver.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5615B87A1E8FBFC40020B47C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Nick Pershin";
+				TargetAttributes = {
+					5615B8821E8FBFC40020B47C = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 5615B87D1E8FBFC40020B47C /* Build configuration list for PBXProject "PepperCoolScreenSaver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5615B8791E8FBFC40020B47C;
+			productRefGroup = 5615B8841E8FBFC40020B47C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5615B8821E8FBFC40020B47C /* PepperCoolScreenSaver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5615B8811E8FBFC40020B47C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5615B87E1E8FBFC40020B47C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5615B8891E8FBFC40020B47C /* PepperCoolScreenSaverView.m in Sources */,
+				5615B8951E8FC4470020B47C /* MyOpenGLView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5615B88B1E8FBFC40020B47C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5615B88C1E8FBFC40020B47C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5615B88E1E8FBFC40020B47C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = PepperCoolScreenSaver/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = nickpepper.PepperCoolScreenSaver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		5615B88F1E8FBFC40020B47C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = PepperCoolScreenSaver/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = nickpepper.PepperCoolScreenSaver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5615B87D1E8FBFC40020B47C /* Build configuration list for PBXProject "PepperCoolScreenSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5615B88B1E8FBFC40020B47C /* Debug */,
+				5615B88C1E8FBFC40020B47C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5615B88D1E8FBFC40020B47C /* Build configuration list for PBXNativeTarget "PepperCoolScreenSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5615B88E1E8FBFC40020B47C /* Debug */,
+				5615B88F1E8FBFC40020B47C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5615B87A1E8FBFC40020B47C /* Project object */;
+}

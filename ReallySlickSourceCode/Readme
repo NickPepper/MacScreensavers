@@ -1,0 +1,8 @@
+Really Slick Source Code
+
+This is the source code for a group of Windows screensavers and their supporting libraries that you can find at http://www.reallyslick.com.  All the code is encapsulated in Microsoft Visual C++ project files.
+
+Before compiling any savers you'll need to at least compile SaverGL.  It's the saver library that takes care of opening an OpenGL window and performing a lot of other Windows nonsense.  For some of the savers you'll also need to compile rsMath, rgbhsl, and Implicit.
+
+Terry Welsh
+mogumbo@totalmail.com

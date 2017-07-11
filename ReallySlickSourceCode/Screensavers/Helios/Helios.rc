@@ -1,0 +1,206 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+DLG_SCRNSAVECONFIGURE DIALOGEX 0, 0, 369, 182
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Helios   by Terry Welsh"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,7,161,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,68,161,50,14
+    PUSHBUTTON      "About",ABOUT,129,161,50,14
+    LTEXT           "Number of emitters",IDC_STATIC,7,85,60,8
+    LTEXT           "Number of attracters",IDC_STATIC,7,115,65,8
+    LTEXT           "Number of ions",IDC_STATIC,34,14,48,8
+    LTEXT           "Animation speed",IDC_STATIC,7,145,53,8
+    LTEXT           "Ion size",IDC_STATIC,7,55,25,8
+    LTEXT           "Camera speed",IDC_STATIC,190,25,46,8
+    LTEXT           "Motion blur",IDC_STATIC,190,55,36,8
+    LTEXT           "Thread priority",IDC_STATIC,190,85,46,8
+    LTEXT           "Video mode",IDC_STATIC,219,135,38,8
+    EDITTEXT        IDC_EDIT2,102,11,41,14,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Spin2",IONS,"msctls_updown32",UDS_WRAP | 
+                    UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS,154,11,11,14
+    CONTROL         "Slider1",SIZE,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,7,40,172,15
+    CONTROL         "Slider2",EMITTERS,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,7,70,172,15
+    CONTROL         "Slider2",ATTRACTERS,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,7,100,172,15
+    CONTROL         "Slider2",SPEED,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,7,130,172,15
+    CONTROL         "Slider1",CAMERASPEED,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,190,10,172,15
+    CONTROL         "Slider1",BLUR,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,190,40,172,15
+    CONTROL         "Slider1",PRIORITY,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,190,70,172,15
+    CONTROL         "Helion surfaces   ",SURFACE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,202,107,71,10,WS_EX_RIGHT
+    COMBOBOX        VIDEOMODE,265,133,97,68,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "Defaults",DEFAULTS,215,161,50,14
+    RTEXT           "#",SIZETEXT,102,55,13,8
+    RTEXT           "#",EMITTERTEXT,102,85,13,8
+    RTEXT           "#",ATTRACTERTEXT,102,115,13,8
+    RTEXT           "#",SPEEDTEXT,102,145,13,8
+    RTEXT           "#",PRIORITYTEXT,252,85,13,8
+    RTEXT           "#",CAMERASPEEDTEXT,252,25,13,8
+    RTEXT           "#",BLURTEXT,252,55,13,8
+END
+
+DLG_ABOUT DIALOG DISCARDABLE  0, 0, 186, 228
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Helios"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,129,207,50,14,WS_GROUP
+    CTEXT           "Helios",IDC_STATIC,7,6,172,9
+    CTEXT           "version 1.0   January 13, 2001",IDC_STATIC,7,17,172,8
+    CTEXT           "by Terry Welsh",IDC_STATIC,7,27,172,8
+    LTEXT           "\tBeneath its shiny exterior, Helios's particles are powered by some basic attraction/repulsion math.  The Helion surfaces, on the other hand, are much more complicated.",
+                    IDC_STATIC,7,65,172,34
+    CTEXT           "http://www.reallyslick.com",WEBPAGE,7,37,172,8,
+                    SS_NOTIFY | NOT WS_GROUP
+    LTEXT           "\tThis screen saver uses the OpenGL API.  It will perform poorly without OpenGL hardware acceleration.  Feel free to send me e-mail if you have comments, suggestions, or bugs to report.",
+                    IDC_STATIC,7,132,172,38
+    LTEXT           "\tThis is a shareware program.  Please spread it around.  If you choose to keep it, the price is US$ 5.  Payment information is available on the Really Slick website.",
+                    IDC_STATIC,7,170,172,34
+    LTEXT           "\tMixing all the math with some camera movements, a little motion blur, and tons of particles gives a pretty nice effect.",
+                    IDC_STATIC,7,102,172,30
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    DLG_SCRNSAVECONFIGURE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 362
+        VERTGUIDE, 82
+        VERTGUIDE, 102
+        VERTGUIDE, 179
+        VERTGUIDE, 190
+        VERTGUIDE, 265
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 175
+        HORZGUIDE, 25
+        HORZGUIDE, 55
+        HORZGUIDE, 85
+        HORZGUIDE, 115
+        HORZGUIDE, 145
+    END
+
+    DLG_ABOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 221
+        HORZGUIDE, 15
+        HORZGUIDE, 25
+        HORZGUIDE, 35
+        HORZGUIDE, 45
+        HORZGUIDE, 55
+        HORZGUIDE, 65
+        HORZGUIDE, 102
+        HORZGUIDE, 132
+        HORZGUIDE, 170
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+ID_APP                  ICON    DISCARDABLE     "icon1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_DESCRIPTION         "Helios (OpenGL)"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 38;
+	objects = {
+		0117A9DB005D908D7F000001 = {
+			isa = PBXBundleReference;
+			path = Plasma.saver;
+			refType = 3;
+		};
+		0117A9DC005D908D7F000001 = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				OPTIMIZATION_CFLAGS = "-O0";
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		0117A9DD005D908D7F000001 = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+		0117A9DE005D913B7F000001 = {
+			isa = PBXFrameworkReference;
+			name = OpenGL.framework;
+			path = /System/Library/Frameworks/OpenGL.framework;
+			refType = 0;
+		};
+		0117A9DF005D913B7F000001 = {
+			fileRef = 0117A9DE005D913B7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//010
+//011
+//012
+//013
+//014
+//020
+//021
+//022
+//023
+//024
+		02A4B434FF93A1BDD85030BD = {
+			isa = PBXFrameworkReference;
+			name = ScreenSaver.framework;
+			path = /System/Library/Frameworks/ScreenSaver.framework;
+			refType = 0;
+		};
+		02A4B437FF93A1BDD85030BD = {
+			fileRef = 02A4B434FF93A1BDD85030BD;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//020
+//021
+//022
+//023
+//024
+//080
+//081
+//082
+//083
+//084
+		089C1669FE841209C02AAC07 = {
+			buildStyles = (
+				0117A9DC005D908D7F000001,
+				0117A9DD005D908D7F000001,
+			);
+			isa = PBXProject;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				Italian,
+				Spanish,
+			);
+			mainGroup = 089C166AFE841209C02AAC07;
+			projectDirPath = "";
+			targets = (
+				089C1673FE841209C02AAC07,
+			);
+		};
+		089C166AFE841209C02AAC07 = {
+			children = (
+				08FB77AFFE84173DC02AAC07,
+				089C167CFE841241C02AAC07,
+				089C1671FE841209C02AAC07,
+				19C28FB8FE9D52D311CA2CBB,
+			);
+			isa = PBXGroup;
+			name = "More Gears";
+			refType = 4;
+		};
+		089C1671FE841209C02AAC07 = {
+			children = (
+				1058C7ACFEA557BF11CA2CBB,
+				1058C7AEFEA557BF11CA2CBB,
+			);
+			isa = PBXGroup;
+			name = "Frameworks and Libraries";
+			refType = 4;
+		};
+		089C1672FE841209C02AAC07 = {
+			isa = PBXFrameworkReference;
+			name = Foundation.framework;
+			path = /System/Library/Frameworks/Foundation.framework;
+			refType = 0;
+		};
+		089C1673FE841209C02AAC07 = {
+			buildPhases = (
+				089C1674FE841209C02AAC07,
+				089C1675FE841209C02AAC07,
+				089C1676FE841209C02AAC07,
+				089C1677FE841209C02AAC07,
+				089C1679FE841209C02AAC07,
+			);
+			buildSettings = {
+				DEBUGGING_SYMBOLS = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OPTIMIZATION_CFLAGS = "-O3";
+				OTHER_CFLAGS = "-D__MACOSXSCREENSAVER__";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Plasma;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = saver;
+			};
+			dependencies = (
+			);
+			isa = PBXBundleTarget;
+			name = Plasma;
+			productName = Xeverywhere;
+			productReference = 0117A9DB005D908D7F000001;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleGetInfoString</key>
+	<string>Plasma 10.0.2</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>com.demonews.reallyslick.Plasma</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>10.0.2</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>10.0.2</string>
+	<key>NSPrincipalClass</key>
+	<string></string>
+</dict>
+</plist>
+";
+			shouldUseHeadermap = 1;
+		};
+		089C1674FE841209C02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+				F5BB329202D7890B010F47A6,
+				F5BB329302D7890B010F47A6,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089C1675FE841209C02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+				F5BB329B02D796CF010F47A6,
+				F545C82902FD49A0017CF652,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089C1676FE841209C02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+				F5BB329402D7890B010F47A6,
+				F5BB329502D7890B010F47A6,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089C1677FE841209C02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+				1058C7AFFEA557BF11CA2CBB,
+				02A4B437FF93A1BDD85030BD,
+				0117A9DF005D913B7F000001,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089C1679FE841209C02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089C167CFE841241C02AAC07 = {
+			children = (
+				F545C82702FD49A0017CF652,
+				F5BB329902D796CF010F47A6,
+			);
+			isa = PBXGroup;
+			name = Resources;
+			refType = 4;
+		};
+		089C167FFE841241C02AAC07 = {
+			isa = PBXFrameworkReference;
+			name = AppKit.framework;
+			path = /System/Library/Frameworks/AppKit.framework;
+			refType = 0;
+		};
+		08FB77AFFE84173DC02AAC07 = {
+			children = (
+				F5F2444102CBBD1C01AEC1CD,
+				F5BB329102D7890B010F47A6,
+				F5BB329002D7890B010F47A6,
+			);
+			isa = PBXGroup;
+			name = Classes;
+			refType = 4;
+		};
+//080
+//081
+//082
+//083
+//084
+//100
+//101
+//102
+//103
+//104
+		1058C7ACFEA557BF11CA2CBB = {
+			children = (
+				0117A9DE005D913B7F000001,
+				1058C7ADFEA557BF11CA2CBB,
+				02A4B434FF93A1BDD85030BD,
+			);
+			isa = PBXGroup;
+			name = "Linked Frameworks";
+			refType = 4;
+		};
+		1058C7ADFEA557BF11CA2CBB = {
+			isa = PBXFrameworkReference;
+			name = Cocoa.framework;
+			path = /System/Library/Frameworks/Cocoa.framework;
+			refType = 0;
+		};
+		1058C7AEFEA557BF11CA2CBB = {
+			children = (
+				089C1672FE841209C02AAC07,
+				089C167FFE841241C02AAC07,
+			);
+			isa = PBXGroup;
+			name = "Other Frameworks";
+			refType = 4;
+		};
+		1058C7AFFEA557BF11CA2CBB = {
+			fileRef = 1058C7ADFEA557BF11CA2CBB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//100
+//101
+//102
+//103
+//104
+//190
+//191
+//192
+//193
+//194
+		19C28FB8FE9D52D311CA2CBB = {
+			children = (
+				0117A9DB005D908D7F000001,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+		};
+//190
+//191
+//192
+//193
+//194
+//F50
+//F51
+//F52
+//F53
+//F54
+		F50C040E03055054015F9A9F = {
+			isa = PBXFileReference;
+			name = German;
+			path = German.lproj/Localizable.strings;
+			refType = 4;
+		};
+		F50C040F03055054015F9A9F = {
+			isa = PBXFileReference;
+			name = German;
+			path = German.lproj/ConfigureSheet.nib;
+			refType = 4;
+		};
+		F522C0550340FF52012C3ACE = {
+			isa = PBXFileReference;
+			name = Spanish;
+			path = Spanish.lproj/Localizable.strings;
+			refType = 4;
+		};
+		F522C0560340FF52012C3ACE = {
+			isa = PBXFileReference;
+			name = Spanish;
+			path = Spanish.lproj/ConfigureSheet.nib;
+			refType = 4;
+		};
+		F545C82702FD49A0017CF652 = {
+			children = (
+				F545C82802FD49A0017CF652,
+				F545C82A02FD49AE017CF652,
+				F50C040E03055054015F9A9F,
+				F5FC22880335C0DC0124607D,
+				F522C0550340FF52012C3ACE,
+			);
+			isa = PBXVariantGroup;
+			name = Localizable.strings;
+			path = "";
+			refType = 2;
+		};
+		F545C82802FD49A0017CF652 = {
+			isa = PBXFileReference;
+			name = French;
+			path = French.lproj/Localizable.strings;
+			refType = 4;
+		};
+		F545C82902FD49A0017CF652 = {
+			fileRef = F545C82702FD49A0017CF652;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F545C82A02FD49AE017CF652 = {
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/Localizable.strings;
+			refType = 4;
+		};
+		F58C23BF02FC084501D5DD79 = {
+			isa = PBXFileReference;
+			name = French;
+			path = French.lproj/ConfigureSheet.nib;
+			refType = 4;
+		};
+		F5B5076902FC11D901F202BF = {
+			isa = PBXFileReference;
+			name = Italian;
+			path = Italian.lproj/ConfigureSheet.nib;
+			refType = 4;
+		};
+		F5BB328E02D7890B010F47A6 = {
+			isa = PBXFileReference;
+			path = Plasma.cpp;
+			refType = 2;
+		};
+		F5BB328F02D7890B010F47A6 = {
+			isa = PBXFileReference;
+			path = Plasma.h;
+			refType = 4;
+		};
+		F5BB329002D7890B010F47A6 = {
+			isa = PBXFileReference;
+			path = RSSPlasmaSaverView.mm;
+			refType = 2;
+		};
+		F5BB329102D7890B010F47A6 = {
+			isa = PBXFileReference;
+			path = RSSPlasmaSaverView.h;
+			refType = 2;
+		};
+		F5BB329202D7890B010F47A6 = {
+			fileRef = F5BB329102D7890B010F47A6;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5BB329302D7890B010F47A6 = {
+			fileRef = F5BB328F02D7890B010F47A6;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5BB329402D7890B010F47A6 = {
+			fileRef = F5BB329002D7890B010F47A6;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5BB329502D7890B010F47A6 = {
+			fileRef = F5BB328E02D7890B010F47A6;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5BB329902D796CF010F47A6 = {
+			children = (
+				F5BB329A02D796CF010F47A6,
+				F58C23BF02FC084501D5DD79,
+				F50C040F03055054015F9A9F,
+				F5B5076902FC11D901F202BF,
+				F522C0560340FF52012C3ACE,
+			);
+			isa = PBXVariantGroup;
+			name = ConfigureSheet.nib;
+			path = "";
+			refType = 2;
+		};
+		F5BB329A02D796CF010F47A6 = {
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/ConfigureSheet.nib;
+			refType = 4;
+		};
+		F5BB329B02D796CF010F47A6 = {
+			fileRef = F5BB329902D796CF010F47A6;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5F2444102CBBD1C01AEC1CD = {
+			children = (
+				F5BB328F02D7890B010F47A6,
+				F5BB328E02D7890B010F47A6,
+			);
+			isa = PBXGroup;
+			name = "C++ code";
+			refType = 4;
+		};
+		F5FC22880335C0DC0124607D = {
+			isa = PBXFileReference;
+			name = Italian;
+			path = Italian.lproj/Localizable.strings;
+			refType = 4;
+		};
+	};
+	rootObject = 089C1669FE841209C02AAC07;
+}

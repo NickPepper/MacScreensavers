@@ -1,0 +1,48 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                closeSheet = id; 
+                selectGeometry = id; 
+                selectSolarSettings = id; 
+                setEmitterSpeed = id; 
+                setEmittersValue = id; 
+                setMotionBlur = id; 
+                setParticleSize = id; 
+                setParticleSpeed = id; 
+                setParticlesValue = id; 
+                setWindSpeed = id; 
+                setWindsValue = id; 
+            }; 
+            CLASS = RSSSolarWindsSaverView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "IBconfigureSheet_" = id; 
+                "IBemitterSpeedLabel_" = id; 
+                "IBemitterSpeedSlider_" = id; 
+                "IBemittersStepper_" = id; 
+                "IBemittersTextField_" = id; 
+                "IBgeometryPopupButton_" = id; 
+                "IBmainScreen_" = id; 
+                "IBmotionBlurLabel_" = id; 
+                "IBmotionBlurSlider_" = id; 
+                "IBparticleSizeLabel_" = id; 
+                "IBparticleSizeSlider_" = id; 
+                "IBparticleSpeedLabel_" = id; 
+                "IBparticleSpeedSlider_" = id; 
+                "IBparticlesStepper_" = id; 
+                "IBparticlesTextField_" = id; 
+                "IBsettingsPopupButton_" = id; 
+                "IBversion_" = id; 
+                "IBwindSpeedLabel_" = id; 
+                "IBwindSpeedSlider_" = id; 
+                "IBwindsStepper_" = id; 
+                "IBwindsTextField_" = id; 
+            }; 
+            SUPERCLASS = ScreenSaverView; 
+        }, 
+        {CLASS = ScreenSaverView; LANGUAGE = ObjC; SUPERCLASS = NSView; }
+    ); 
+    IBVersion = 1; 
+}
